@@ -1,0 +1,24 @@
+{
+  "name": "mfusecond-hand",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterofarm999/mfusecond-hand.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masterofarm999/mfusecond-hand/issues"
+  },
+  "homepage": "https://github.com/masterofarm999/mfusecond-hand#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
