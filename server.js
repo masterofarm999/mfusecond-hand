@@ -18,12 +18,13 @@ app.use(express.json());
 // ------------------------------
 const pool = new Pool({
   host: process.env.PGHOST,
+  database: process.env.PGDATABASE,
   user: process.env.PGUSER,
   password: process.env.PGPASSWORD,
-  database: process.env.PGDATABASE,
   port: process.env.PGPORT,
-  ssl: { rejectUnauthorized: false },
+  ssl: { rejectUnauthorized: false } // ✅ จำเป็นบน Render
 });
+
 
 // ------------------------------
 // 4. Route ทดสอบหน้าเว็บหลัก
